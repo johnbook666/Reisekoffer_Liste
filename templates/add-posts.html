@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h3>Packe ein Gepäckstück in den Koffer</h3>
+
+<form method="post" action="/add-post">
+    <input type="text" placeholder="Eingabe Gepäckstück" name="title">
+    <button>Hinzufügen</button>
+</form>
+
+{% endblock content %}
